@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <tabs>
+        <tab text="General" >
+            <row weight="0.5">
+                <Label weight="1"  text="Navigation" />
+                <Label weight="1"  text="In Trouble"  />
+                <Label weight="1"  text="Misc" />
+                <Label weight="1" text="Approach"  />
+            </row>
+            <row>
+                <button color="green" text="GALaxy map" onTap="galaxy_map" />
+                <button color="red" text="Deploy Heatsink" onTap="deploy_heatsink" />
+                <button text="cargo scoop" onTap="cargo_scoop" />
+                <button color="blue" text="75 Engine" onTap="engine" />
+            </row>
+            <row>
+                <button color="green" text="System Map" onTap="system_map" />
+                <button color="red" text="Deploy chaff" onTap="deploy_chaff" />
+                <button text="hardpoints" onTap="hardpoints" />
+                <button color="blue" text="landing gear" onTap="landing_gear" />
+            </row>
+            <row>
+                <button color="green" text="Target Next SiR" ontap="Target_Next_SiR" />
+                <button color="red" text="Use Shield cell" ontap="Use_Shield_cell" />
+                <button text="ship lights" ontap="ship_lights" />
+                <button color="blue" text="Left Panel" ontap="left_panel" />
+            </row>
+            <row>
+                <space />
+                <button color="red" text="jettison cargo" ontap="jettison_cargo" />
+                <button  text="Night Vision" ontap="Night_Vision" />
+                <button color="blue" text="Silent Run" ontap="Silent_Run" />
+                
+            </row>
+            <row weight="0.5">
+                <Space>
+                </Space>
+            </row>
+            <row>
+                <space />
+                <button text="Galnet Radio"  ontap="galnet_radio" />
+                <button text="screenshot" ontap="screenshot" />
+                <space />
+            </row>
+          
+        </tab>
+        <tab text="Fighting" color="green">
+            <row>
+                <button color="green" text="Dangerous" ontap="toggle_use" />
+                <button text="Toggle Use" ontap="Dangerous" />
+                <button text="Toggle Use" ontap="Dangerous" />
+                <button light="color:#aaa;focus:#bbb;active:#ccc" />
+                <label text="Elite!!!" ontap="Button1"  />
+                <label text="Elite!!!" ontap="Button1"  />
+            </row>
+        </tab>
+        <tab text="Scanning" color="pink" height="20px">
+            <row>
+                <button color="green" text="Dangerous" ontap="toggle_use" />
+                <button text="Toggle Use" ontap="Dangerous" />
+                <button text="Toggle Use" ontap="Dangerous" />
+                <button light="color:#aaa;focus:#bbb;active:#ccc" />
+                <label text="Elite!!!" ontap="Button1"  />
+                <label text="Elite!!!" ontap="Button1"  />
+            </row>
+        </tab>
+    </tabs>
+</layout>
